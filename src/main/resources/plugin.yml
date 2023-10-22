@@ -1,0 +1,21 @@
+main: fr.nesta.seedplanter.Main
+name: SeedPlanter
+version: 1.0
+description: A SeedPlanter Plugin
+api-version: '1.20'
+author: 69Nesta
+prefix: SP
+commands:
+  seedplanter:
+    permission: seedplanter.enchant
+    permission-message: "You can use this !"
+
+permissions:
+  seedplanter.enchant:
+    description: Default permission
+    default: op
+  seedplanter.*:
+    description: Wildcard permission
+    default: op
+    children:
+      test.enchant: true

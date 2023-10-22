@@ -1,0 +1,10 @@
+prefix: "&6[&bSP&6]&r"
+
+SeedPlanter:
+  lore: 'SeedPlanter I'
+  items: ['NETHERITE_HOE'] # ['NETHERITE_HOE', 'DIAMOND_HOE', '...'] -> https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  added: "%prefix% &aThe SeedPlanter enchantment has been added !"
+  remove: "%prefix% &aThe SeedPlanter enchantment has been removed !"
+  wrongItem: "%prefix% &cThis item does not support SeedPlanter !"
+  error: "%prefix% &cAn error occurred try later or contact Administrator !"
+
